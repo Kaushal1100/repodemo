@@ -9,7 +9,7 @@ public class DemoController {
 		
 		@GetMapping("/dummyData")
 		public String getDummyData() {
-			return "Lets return some string";
+			return "I just updated my DemoController";
 		}
 
 	}
